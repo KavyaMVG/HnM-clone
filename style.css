@@ -1,0 +1,104 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "HM Sans Regular", "ヒラギノ角ゴ Pro W3",
+    "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック",
+    "MS PGothic", sans-serif;
+  background-color: #faf9f8;
+}
+.nav__logo {
+  background-image: url("images/hnm-logo.png");
+  width: 5rem;
+  height: 4rem;
+  background-repeat: no-repeat;
+}
+.nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 5rem;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  margin-left: 13vw;
+  list-style: none;
+}
+.nav__item {
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+.nav__link {
+  color: black;
+  text-decoration: none;
+}
+.nav__search {
+  text-decoration: none;
+  padding: 10px 15px 8px 30px;
+  border: 0;
+  border-bottom: 1px solid #222222;
+  background-color: transparent;
+  text-align: right;
+  font-size: 0.9rem;
+}
+.section--one {
+  text-align: center;
+}
+.section--one__img {
+  background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/divided_s05/february_2022/5005a/5005a-3x2.jpg]&scale=size[960]&sink=format[jpeg],quality[80]");
+  width: 960px;
+  height: 640px;
+  margin-left: 17vw;
+}
+
+.header--one__heading {
+  padding-top: 40%;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  margin-bottom: 10px;
+}
+.section--one__text {
+  color: #faf9f8;
+  font-size: 14px;
+  padding-bottom: 16px;
+}
+.section--one__btn {
+  color: #222222;
+  font-size: 13px;
+  padding: 8px;
+  background-color: #ffffff;
+  font-weight: bold;
+}
+.section--two {
+  text-align: center;
+}
+.section--two__img {
+  background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/kids_s05/february_2022/4025t/4025T-3x2-moments-to-celebrate.jpg]&scale=size[960]&sink=format[jpeg],quality[80]");
+  width: 960px;
+  height: 640px;
+  margin-left: 17vw;
+  margin-top: 1.5rem;
+}
+.section--two__heading {
+  padding-top: 45%;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  margin-bottom: 10px;
+}
+.section--two__text {
+  color: #faf9f8;
+  font-size: 14px;
+  padding-bottom: 16px;
+}
+.section--two__btn {
+  font-size: 13px;
+  padding: 8px;
+  background-color: #ffffff;
+  font-weight: bold;
+  border: 0;
+}
