@@ -4,57 +4,67 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "HM Sans Regular", "ヒラギノ角ゴ Pro W3",
     "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック",
     "MS PGothic", sans-serif;
   background-color: #faf9f8;
 }
-.nav__logo {
-  background-image: url("images/hnm-logo.png");
-  width: 5rem;
-  height: 4rem;
-  background-repeat: no-repeat;
+
+.d-flex {
+  display: flex;
 }
+
+.jc-c {
+  justify-content: center;
+  text-align: center;
+}
+
+.nav__logo {
+  background-repeat: no-repeat;
+  display: block;
+  margin: auto;
+}
+
 .nav__list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   font-size: 1rem;
-  font-weight: 400;
-  margin-top: 5rem;
-  gap: 0.5rem;
+  margin-top: 3rem;
   margin-bottom: 2rem;
-  margin-left: 13vw;
   list-style: none;
+  color: #222222;
 }
-.nav__item {
-  flex-shrink: 1;
-  flex-grow: 1;
-}
-.nav__link {
-  color: black;
+
+.nav__link-one {
+  color: inherit;
   text-decoration: none;
+  margin: 1rem;
+  font-size: 1rem;
+  font-weight: 550;
 }
 .nav__search {
-  text-decoration: none;
-  padding: 10px 15px 8px 30px;
-  border: 0;
-  border-bottom: 1px solid #222222;
   background-color: transparent;
-  text-align: right;
-  font-size: 0.9rem;
+  border: 0;
+  font-size: 1.5rem;
+  color: black;
 }
+
 .section--one {
-  text-align: center;
+  padding-top: 2rem;
 }
+
 .section--one__img {
-  background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/divided_s05/february_2022/5005a/5005a-3x2.jpg]&scale=size[960]&sink=format[jpeg],quality[80]");
+  background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/ladies_s05/february_2022/1015a/1015A-3x2-TR-spring-statement-ramadan.jpg]&scale=size[960]&sink=format[jpeg],quality[80]");
   width: 960px;
   height: 640px;
-  margin-left: 17vw;
 }
 
 .header--one__heading {
+  text-align: center;
   padding-top: 40%;
   font-weight: bold;
   font-size: 40px;
@@ -64,7 +74,8 @@ body {
 .section--one__text {
   color: #faf9f8;
   font-size: 14px;
-  padding-bottom: 16px;
+  font-weight: bold;
+  padding-bottom: 1rem;
 }
 .section--one__btn {
   color: #222222;
@@ -72,6 +83,7 @@ body {
   padding: 8px;
   background-color: #ffffff;
   font-weight: bold;
+  border: 0;
 }
 .section--two {
   text-align: center;
@@ -80,7 +92,6 @@ body {
   background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/kids_s05/february_2022/4025t/4025T-3x2-moments-to-celebrate.jpg]&scale=size[960]&sink=format[jpeg],quality[80]");
   width: 960px;
   height: 640px;
-  margin-left: 17vw;
   margin-top: 1.5rem;
 }
 .section--two__heading {
@@ -101,4 +112,176 @@ body {
   background-color: #ffffff;
   font-weight: bold;
   border: 0;
+}
+.home--decor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.image--home {
+  background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/home_s05/february_2022/7035a/7035A3x2%20TEASER.jpg]&scale=size[960]&sink=format[jpeg],quality[80]");
+  width: 960px;
+  height: 640px;
+}
+.home--heading {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+.home--decor__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-size: 13px;
+  padding: 8px;
+  background-color: #ffffff;
+  font-weight: bold;
+  border: 0;
+}
+.section--three {
+  background-color: #f4eddd;
+  margin: auto;
+}
+.section--three__title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  word-break: break-word;
+}
+.section--three__text {
+  text-align: center;
+  font-size: 0.6rem;
+  font-weight: 0;
+  margin-top: 0;
+}
+.section--three__link {
+  display: inline-block;
+  margin-left: 40.5rem;
+  text-decoration: none;
+  color: #222222;
+  /* line-height: 16px; */
+  font-size: 11px;
+  font-weight: bold;
+  border-bottom: 1px solid #222222;
+}
+.card--section {
+  display: flex;
+  gap: 3rem;
+  margin-top: 1rem;
+  margin-left: 5rem;
+}
+
+.card {
+  width: 30%;
+  background-color: snow;
+  margin-bottom: 2rem;
+}
+
+.card__img {
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.card__heading {
+  text-align: center;
+  font-size: 0.7124rem;
+  font-weight: 525;
+}
+
+.card__text {
+  text-align: center;
+  font-size: 0.8124rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.card__link {
+  text-align: center;
+  font-size: 0.7124rem;
+  font-weight: 550;
+}
+.footer-section {
+  background-color: #e4e4e4;
+}
+.last--nav__list {
+  list-style: none;
+  margin-top: 4rem;
+}
+
+.footer-container {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.last--nav__heading {
+  font-weight: 700;
+  font-size: small;
+  margin-bottom: 1rem;
+}
+.last--nav__link {
+  color: #222222;
+  text-decoration: none;
+  list-style: none;
+  font-size: 0.8rem;
+  line-height: 2rem;
+}
+.last--nav__text {
+  font-size: small;
+  margin-top: 1rem;
+}
+.nav__link {
+  font-size: small;
+  font-weight: 700;
+  text-decoration: none;
+  color: inherit;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.last__text {
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: black;
+  margin-top: 1.5rem;
+}
+.footer--text__link {
+  text-decoration: none;
+  color: #222222;
+  /* margin-left: 41rem; */
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+.footer--logo {
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+  letter-spacing: 0.14rem;
+}
+span {
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
+  padding: 0.5rem;
+}
+.footer--country {
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 500;
+  margin-top: 2rem;
+  padding-bottom: 3rem;
+  color: black;
+}
+.and-sign {
+  font-size: small;
+  font-weight: 600;
+  padding: 0%;
 }

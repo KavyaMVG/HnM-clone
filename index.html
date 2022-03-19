@@ -14,55 +14,59 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
+  <body>      
       <header class="section--one">
+        <img src="images/hnm-logo.png" alt="logo" class="nav__logo"></img>
         <div class="main-nav">
-          <div class="nav__logo"></div>
           <ul class="nav__list">
             <li class="nav__item">
-              <a href="#" class="nav__link">Ladies</a>
+              <a href="#" class="nav__link-one">Ladies</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__link">Men</a>
+              <a href="#" class="nav__link-one">Men</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__link">Baby</a>
+              <a href="#" class="nav__link-one">Baby</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__link">Kids</a>
+              <a href="#" class="nav__link-one"> Kids</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__link">Divided</a>
+              <a href="#" class="nav__link-one">Divided</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__link">H&M Home</a>
+              <a href="#" class="nav__link-one">H&M Home</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__link">Sale</a>
+              <a href="#" class="nav__link-one">Sale</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__link">Sustaniability</a>
+              <a href="#" class="nav__link-one">Sustaniability</a>
             </li>
-            <input
+            <li class="nav__item">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input
               class="nav__search"
               type="text"
               placeholder="search products"
             />
+            </li>
           </ul>
         </div>
-
-        <div class="section--one__img">
-          <h2 class="header--one__heading">
-            Current crush: Spring-ready tops from Rs.399
-          </h2>
-          <p class="section--one__text">
-            The new season's vibrant '90s-inspired looks,styled by @tm.twins.
-          </p>
-          <button class="btn section--one__btn">Shop now</button>
+        <div class="d-flex jc-c">
+          <div class="section--one__img">
+            <h2 class="header--one__heading">
+              A limited drop of elegant garments
+            </h2>
+            <p class="section--one__text">
+              Let your light shine through
+            </p>
+            <button class="btn section--one__btn">Shop now</button>
         </div>
+      </div>
       </header>
 
-      <section class="section--two">
+      <section class="section--two d-flex jc-c">
         <div class="section--two__img">
           <h3 class="section--two__heading">
             Fun with colors- All under Rs.599
@@ -74,36 +78,48 @@
           <button class="btn section--two__btn">Shop now</button>
       </section>
 
+     <section class="home--decor">
+       <div class="image--home">
+         <h3 class="home--heading">How to create lounge wear at home</h3>
+         <button class="btn home--decor__btn">Shop now</button>
+       </div>
+     </section>
+
       <section class="section--three">
         <p class="section--three__title">MAGAZINE</p>
-        <p class="section--three__text">A world of magazine</p>
+        <h3 class="section--three__text">A WORLD OF INSPIRATION</h3>
         <a class="section--three__link" href="#">READ H&M MAGAZINE</a>
+        
         <div class="card--section">
+
           <div class="card">
             <a>
-              <div class="card__img"></div>
-              <p class="card__heading">INSIDE H&M</p>
-              <p class="card__text">H&M Studio SS:22:Meet Devon Ross</p>
-              <p class="card__link">Read story →</p>
+              <img src="/images/women.jpg" alt="women" class="card__img"></img>
+              <div>
+                <p class="card__heading">INSIDE H&M</p>
+                <p class="card__text">H&M Studio SS:22:Meet Devon Ross</p>
+                <p class="card__link">Read story →</p>
+              </div>
             </a>
           </div>
 
           <div class="card">
             <a>
-              <div class="card__img"></div>
+              <img src="images/hoodie.jpg" alt="hoodie" class="card__img"></img>
               <div>
                 <p class="card__heading">INSIDE H&M</p>
                 <p class="card__text">
-                  H&M is turning plastic waste from Indonesian islands into
+                  H&M is turning plastic waste Indonesian islands into
                   everyday fashion
                 </p>
                 <p class="card__link">Read story →</p>
               </div>
             </a>
           </div>
+
           <div class="card">
             <a>
-              <div class="card__img"></div>
+              <img src="images/vests.jpg" alt="vests" class="card__img"></img>
               <div>
                 <p class="card__heading">INSIDE H&M</p>
                 <p class="card__text">How to wear a sweater vest</p>
@@ -114,9 +130,10 @@
         </div>
       </section>
     </div>
+  </div>
     <footer class="footer-section">
-      <div class="last--nav__item">
-        <ul class="last--nav__list__one">
+      <div class="footer-container">
+        <ul class="last--nav__list">
           <li>
             <p class="last--nav__heading">Shop</p>
             <a href="#" class="last--nav__link">Ladies</a>
@@ -137,7 +154,7 @@
             <a href="#" class="last--nav__link">H&M Home</a>
           </li>
         </ul>
-        <ul class="last--nav__list__two">
+        <ul class="last--nav__list">
           <li>
             <p class="last--nav__heading">CORPORATE INFO</p>
             <a href="#" class="last--nav__link">Career at H&M</a>
@@ -158,8 +175,8 @@
             <a href="#" class="last--nav__link">Corporate governance</a>
           </li>
         </ul>
-        <ul class="last--nav__list__three">
-          <li>
+        <ul class="last--nav__list">
+          <li >
             <p class="last--nav__heading">HELP</p>
             <a href="#" class="last--nav__link">Customer service</a>
           </li>
@@ -176,7 +193,7 @@
             <a href="#" class="last--nav__link">contact</a>
           </li>
         </ul>
-        <ul class="last--nav__list__four">
+        <ul class="last--nav__list">
           <li>
             <p class="last--nav__heading">Sign up for newsletter</p>
           </li>
@@ -188,7 +205,7 @@
             </p>
           </li>
           <li class="last--nav__item">
-            <a href="#" class="last--nav__link">SIGN UP→</a>
+            <a href="#" class="nav__link">SIGN UP→</a>
           </li>
         </ul>
       </div>
@@ -205,10 +222,10 @@
           H & M Hennes & Mauritz AB. H&M’s business<br />
           concept is to offer fashion and quality at the best price in a...
         </p>
-        <a class="footer--text__link">READ MORE</a>
+        <a class="footer--text__link" href="#">READ MORE</a>
       </div>
       <div class="footer--logo">
-        <a class="footer--logo__hm">HENNES H&M MAURITZ</a>
+        <a class="footer--logo__hm">HENNES<span>H<span class="and-sign">&</span>M</span> MAURITZ</a>
       </div>
       <div class="footer--country">
         <p class="country">INDIA|Rs.</p>
