@@ -422,7 +422,7 @@ a {
     height: 30px;
   }
 }
-@media screen and (max-width: 48git0px) {
+@media screen and (max-width: 480px) {
   .container {
     padding: 0;
   }
