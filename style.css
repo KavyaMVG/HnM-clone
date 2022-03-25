@@ -12,6 +12,11 @@ body {
     "MS PGothic", sans-serif;
   background-color: #faf9f8;
 }
+
+a {
+  text-decoration: none;
+}
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -417,7 +422,7 @@ body {
     height: 30px;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 48git0px) {
   .container {
     padding: 0;
   }
