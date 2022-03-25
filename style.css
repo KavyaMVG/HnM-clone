@@ -21,17 +21,18 @@ body {
 .service {
   display: flex;
   gap: 2rem;
+  align-items: center;
+  flex: 1;
   /* padding: 0 2rem; */
 }
 .link {
   text-decoration: none;
   color: #222;
-  font-size: 0.8rem;
+  font-size: 0.92rem;
   font-weight: 400;
 }
 
 .footer--logo__hm > span {
-  font-size: 2rem;
   font-size: 2rem;
   font-family: "Times New Roman", Times, serif;
   padding: 0.5rem;
@@ -41,12 +42,22 @@ body {
   display: flex;
   font-style: inherit;
   font-size: 0.92rem;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  gap: 0.5rem;
 }
+
 .div-icons {
   margin: 0 1rem;
   text-decoration: none;
   color: #222;
 }
+
+.div-icons > .fa-magnifying-glass {
+  display: none;
+}
+
 .gender {
   display: flex;
   justify-content: center;
@@ -150,6 +161,9 @@ body {
   background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/ladies_s05/february_2022/1015a/1015A-3x2-TR-spring-statement-ramadan.jpg]&scale=size[960]&sink=format[jpeg],quality[80]");
   width: 960px;
   height: 640px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .header--one__heading {
@@ -182,6 +196,9 @@ body {
   width: 960px;
   height: 640px;
   margin-top: 1.5rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .section--two__heading {
   padding-top: 45%;
@@ -213,6 +230,9 @@ body {
   background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/home_s05/february_2022/7035a/7035A3x2%20TEASER.jpg]&scale=size[960]&sink=format[jpeg],quality[80]");
   width: 960px;
   height: 640px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .home--heading {
   text-align: center;
@@ -304,7 +324,7 @@ body {
 }
 
 .footer-container {
-  padding: 2rem;
+  padding: 1rem;
   display: flex;
   justify-content: space-evenly;
 }
@@ -331,7 +351,7 @@ body {
   text-decoration: none;
   color: inherit;
 }
-.icons {
+.social-icons {
   display: flex;
   justify-content: center;
   gap: 2rem;
@@ -377,6 +397,9 @@ body {
   .gender {
     display: none;
   }
+  .div-icons > .fa-magnifying-glass {
+    display: inline-block;
+  }
   .service {
     display: none;
   }
@@ -392,5 +415,69 @@ body {
   .nav__logo img {
     width: 43px;
     height: 30px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .container {
+    padding: 0;
+  }
+  .size-guide {
+    display: none;
+  }
+  .card--section {
+    display: block;
+  }
+  .card {
+    width: 100%;
+  }
+  .footer-container {
+    display: block;
+  }
+  .last--nav__link {
+    display: none;
+  }
+  .last--nav__list {
+    text-align: center;
+  }
+  .last--nav__item {
+    margin-top: 1rem;
+  }
+  .bg-image {
+    width: 80%;
+    height: 100%;
+  }
+  .image--home {
+    width: 80%;
+    height: 100%;
+  }
+  .font {
+    font-size: 1rem;
+  }
+  .btn {
+    visibility: hidden;
+  }
+  .text {
+    font-size: 0.5rem;
+  }
+  .text-box {
+    padding: 2rem 0rem;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: space-around;
+  }
+  .foot-link {
+    display: none;
+  }
+  .section--three__title {
+    font-size: 20px;
+    padding: 1rem;
+  }
+  .section--three {
+    padding: 0 2rem;
+    padding-bottom: 1rem;
+  }
+  .about {
+    padding-bottom: 0;
   }
 }
